@@ -118,7 +118,7 @@ if (missing_values)
 
 # Preparing dataset for Problem Statement - 1 (linear regression analysis) using DPLYR's commands
 ``` {r, echo = TRUE, include = TRUE}
-#Dataset 1-Demographic factors driving customer spend
+# Dataset 1-Demographic factors driving customer spend
 Demographic_factors <- group_by(transaction_data, household_key) %>%
  summarise(Total_Sales = sum(sales_value))%>%
  inner_join(hh_demographic, by="household_key")
@@ -133,6 +133,26 @@ Demographic_factors <- group_by(transaction_data, household_key) %>%
     ```
 
 
+# Preparing dataset for Problem Statement - 2 (K-means segmentation) using DPLYR's commands
+``` {r, echo = TRUE, include = TRUE,warning = FALSE}
+#Dataset 2-Profiling of Customers based on Product Category Engagement
+Customer_profile <- inner_join(transaction_data, product, by = "product_id")%>%
+  inner_join(product_dpt_mapping, by = "department")%>%
+  group_by(household_key, Super_category) %>%
+  summarise(Total_Sales = sum(sales_value))%>%
+  select(household_key, Super_category, Total_Sales)%>%
+  spread(Super_category, Total_Sales)
+```
+
+    # HTML viewing of final dataset and summary of variables 
+    ``` {r, echo = FALSE, include = TRUE}
+    Customer_profile[1:5,] %>%
+    kable() %>%
+      kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+      scroll_box(width = "100%")
+
+    summary(Customer_profile)
+    ```
 
 
 

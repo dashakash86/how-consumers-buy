@@ -139,11 +139,9 @@ income <- c("Under 15k", "15-24K", "25-34K", "35-49K", "50-74K", "75-99K",
 
 marital <- c("A", "B", "U")
 
-Demographic_factors$income_desc <- factor(Demographic_factors$income_desc, 
-                                          levels = income, ordered = T)
+Demographic_factors$income_desc <- factor(Demographic_factors$income_desc, levels = income, ordered = T)
 
-Demographic_factors$marital_status_code <- factor(Demographic_factors$marital_status_code, 
-                                          levels = marital, ordered = T)
+Demographic_factors$marital_status_code <- factor(Demographic_factors$marital_status_code, levels = marital, ordered = T)
 ```
 
 
@@ -186,7 +184,6 @@ Demographic_factors$marital_status_code <- factor(Demographic_factors$marital_st
                                income_desc + household_size_desc, data = Demographic_factors)
     summary(model_1)
     ```
-
 
 
 # Preparing dataset for Problem Statement - 2 (K-means segmentation) using DPLYR's commands
@@ -290,51 +287,50 @@ hist(as.double(unlist(Total_sales[2])), breaks = 20, main = "Total Sales across 
   k2 <- suppressWarnings(kmeans(df, centers = 15, nstart = 25))
   str(k2)
   ```
-
-After getting cluster mappind for all 2250 households, data looks like this
+  
+# Viewing the data after cluster mapping the 2250 households
 ``` {r, echo = FALSE, include = TRUE}
 head(cbind(k2$cluster,Cust_profile_data_filtered[,c(15,10)]))
 ```
 
-<br>
-* **Step 8** -Visualize the cluster in R to understand how the customers have been clustered
+# Visualize the clusters in R to understand how the customers have been clustered
+  ``` {r, echo = FALSE, include = TRUE}
+  # Plot 1
+  df1 <- df[1:2]
+  fviz_cluster(k2, data = df1, labelsize = 1, pointsize = 1)
+  ```
+  ``` {r, echo = FALSE, include = TRUE}
+  # plot clusters
+  df1 <- df[1:8]
+  plot(df1, col = k2$cluster)
+  ```
 
+  ``` {r, echo = FALSE, include = TRUE}
+  # plot clusters
+  df1 <- df[1:3]
+  plot(df1, col = k2$cluster)
+  ```
 
+# Final profiling and naming of clusters based on the average category spend 
+  ``` {r, echo = FALSE, include = TRUE}
+  df_final0 <- as.data.frame((Cust_profile_data_filtered[3:21]))
+  df_final <- df_final0[c(8,	13,	12,	4,	15,	3,	9,	6,	2,	11,	7,	1,	14,	5,	19,	17,	18,	10,	16)]
+  names(df_final) <- gsub(" ", "_", names(df_final))
+  names(df_final) <- gsub("-", "_", names(df_final))
+  names(df_final) <- gsub("/", "_", names(df_final))
+  names(df_final) <- gsub("&", "_", names(df_final))
 
-``` {r, echo = FALSE, include = TRUE}
-#Plot 1
-df1 <- df[1:2]
-fviz_cluster(k2, data = df1, labelsize = 1, pointsize = 1)
-```
-``` {r, echo = FALSE, include = TRUE}
-# plot clusters
-df1 <- df[1:8]
-plot(df1, col = k2$cluster)
-```
-
-``` {r, echo = FALSE, include = TRUE}
-# plot clusters
-df1 <- df[1:3]
-plot(df1, col = k2$cluster)
-```
-
-<br>
-* **Step 9** - Profile and name the clusters based on the average spend across categories. Segments have been named as 'H-Floral-Cosmetics-Garden Supplies buyers' where H represents 'high' total spend and Product categories names suggests the kind of product a customer/household buys
-
-``` {r, echo = FALSE, include = TRUE}
-df_final0 <- as.data.frame((Cust_profile_data_filtered[3:21]))
-df_final <- df_final0[c(8,	13,	12,	4,	15,	3,	9,	6,	2,	11,	7,	1,	14,	5,	19,	17,	18,	10,	16)]
-names(df_final) <- gsub(" ", "_", names(df_final))
-names(df_final) <- gsub("-", "_", names(df_final))
-names(df_final) <- gsub("/", "_", names(df_final))
-names(df_final) <- gsub("&", "_", names(df_final))
-
-cbind(df_final, cluster = k2$cluster)%>%
-  group_by(cluster)%>%
-  summarize(number=n(), avg_GROCERY = mean(GROCERY),	avg_MISC_ITEMS = mean(MISC_ITEMS), avg_MEAT = mean(MEAT),	avg_DELI = mean(DELI),	avg_SERVICES = mean(SERVICES),	avg_COUPONS = mean(COUPONS),	avg_GROCERY_HEALTHY = mean(GROCERY_HEALTHY),	avg_FLORAL = mean(FLORAL), avg_COSMETICS = mean(COSMETICS), avg_LIQUIOR = mean(LIQUIOR),	avg_GARDEN_SUPPLIES = mean(GARDEN_SUPPLIES), avg_AUTOMOTIVE = mean(AUTOMOTIVE),	avg_PHARMACY = mean(PHARMACY), avg_EGGS___MILK_PRODUCTS = mean(EGGS___MILK_PRODUCTS), avg_VIDEO = mean(VIDEO), avg_STORE_SUPPLY_MISC = mean(STORE_SUPPLY_MISC),	avg_TOYS = mean(TOYS) ,	avg_INFANT_PRODUCTS = mean(INFANT_PRODUCTS) ,	avg_STATIONARY = mean(STATIONARY) ) %>%
-kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F) %>%
-  scroll_box(width = "100%")
+  cbind(df_final, cluster = k2$cluster)%>%
+    group_by(cluster)%>%
+    summarize(number=n(), avg_GROCERY = mean(GROCERY),	avg_MISC_ITEMS = mean(MISC_ITEMS), avg_MEAT = mean(MEAT),	
+    avg_DELI = mean(DELI),	avg_SERVICES = mean(SERVICES),	avg_COUPONS = mean(COUPONS),	avg_GROCERY_HEALTHY = mean(GROCERY_HEALTHY),	
+    avg_FLORAL = mean(FLORAL), avg_COSMETICS = mean(COSMETICS), avg_LIQUIOR = mean(LIQUIOR),	
+    avg_GARDEN_SUPPLIES = mean(GARDEN_SUPPLIES), avg_AUTOMOTIVE = mean(AUTOMOTIVE),	avg_PHARMACY = mean(PHARMACY), 
+    avg_EGGS___MILK_PRODUCTS = mean(EGGS___MILK_PRODUCTS), avg_VIDEO = mean(VIDEO), avg_STORE_SUPPLY_MISC = mean(STORE_SUPPLY_MISC),	
+    avg_TOYS = mean(TOYS) ,	avg_INFANT_PRODUCTS = mean(INFANT_PRODUCTS) ,	avg_STATIONARY = mean(STATIONARY) ) %>%
+    kable() %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F) %>%
+    scroll_box(width = "100%")
 ```             
 
 

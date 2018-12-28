@@ -132,17 +132,73 @@ Demographic_factors <- group_by(transaction_data, household_key) %>%
     summary(Demographic_factors)
     ```
 
+# Coercing categorical variables into ordered factors before starting analysis
+``` {r, echo = FALSE, results = "hide"}
+income <- c("Under 15k", "15-24K", "25-34K", "35-49K", "50-74K", "75-99K", 
+            "100-124K", "125-149K", "150-174K", "175-199K", "200-249K")
+
+marital <- c("A", "B", "U")
+
+Demographic_factors$income_desc <- factor(Demographic_factors$income_desc, 
+                                          levels = income, ordered = T)
+
+Demographic_factors$marital_status_code <- factor(Demographic_factors$marital_status_code, 
+                                          levels = marital, ordered = T)
+```
+
+
+# Using GGPLOT to visualize important patterns among the response and predictor variables
+    ``` {r, echo = TRUE}
+    Demographic_factors %>%
+      ggplot(aes(x = Total_Sales, y = income_desc)) +
+      geom_point() +
+      labs(title = "Spend vs Income", x = "Spend", y = "Income")
+    ```
+
+    ``` {r, echo = TRUE}
+    Demographic_factors %>%
+    ggplot(aes(x = Total_Sales, y = age_desc)) +
+      geom_point() +
+      labs(title = "Spend vs Age", x = "Spend", y = "Age")
+    ```
+
+    ``` {r, echo = TRUE}
+    Demographic_factors %>%
+    ggplot(aes(x = Total_Sales, y = household_size_desc,
+                                    color = marital_status_code)) +
+      geom_point() +
+      labs(title = "Spend vs Household Size, and Marital Status", x = "Spend", 
+           y = "Household Size")
+    ```
+
+
+# Building Linear Regression model with 'Dummy Encoding' of the qualitative variables
+    ``` {r, echo = TRUE, results = "hide"}
+    # Dummy encoding 
+    head(model.matrix( ~  age_desc + marital_status_code + income_desc + 
+                         household_size_desc, data = Demographic_factors))
+    ```
+
+    # Linear regression model
+    ``` {r, echo = TRUE}
+    # Regression
+    model_1 <- lm(Total_Sales ~ age_desc + marital_status_code + 
+                               income_desc + household_size_desc, data = Demographic_factors)
+    summary(model_1)
+    ```
+
+
 
 # Preparing dataset for Problem Statement - 2 (K-means segmentation) using DPLYR's commands
-``` {r, echo = TRUE, include = TRUE,warning = FALSE}
-#Dataset 2-Profiling of Customers based on Product Category Engagement
-Customer_profile <- inner_join(transaction_data, product, by = "product_id")%>%
-  inner_join(product_dpt_mapping, by = "department")%>%
-  group_by(household_key, Super_category) %>%
-  summarise(Total_Sales = sum(sales_value))%>%
-  select(household_key, Super_category, Total_Sales)%>%
-  spread(Super_category, Total_Sales)
-```
+    ``` {r, echo = TRUE, include = TRUE,warning = FALSE}
+    #Dataset 2-Profiling of Customers based on Product Category Engagement
+    Customer_profile <- inner_join(transaction_data, product, by = "product_id")%>%
+      inner_join(product_dpt_mapping, by = "department")%>%
+      group_by(household_key, Super_category) %>%
+      summarise(Total_Sales = sum(sales_value))%>%
+      select(household_key, Super_category, Total_Sales)%>%
+      spread(Super_category, Total_Sales)
+    ```
 
     # HTML viewing of final dataset and summary of variables 
     ``` {r, echo = FALSE, include = TRUE}
@@ -153,6 +209,142 @@ Customer_profile <- inner_join(transaction_data, product, by = "product_id")%>%
 
     summary(Customer_profile)
     ```
+
+``` {r, echo = FALSE, include = TRUE}
+# imputing missing values with 0
+Cust_profile_data[is.na(Cust_profile_data)] <- 0
+
+# Checking column sums and row sums
+Sum_cols <- colSums(Cust_profile_data[2:20], na.rm=TRUE)
+Sum_rows <- rowSums(Cust_profile_data[2:20], na.rm=TRUE)
+Total_sales <- cbind(Cust_profile_data[1], Total_sales=Sum_rows)
+summary(Cust_profile_data[2:20]) %>%
+
+kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F) %>%
+  scroll_box(width = "100%")
+```
+
+# 19 new super category variables were created for k-means clustering
+``` {r, echo = FALSE, include = TRUE}
+cbind(product = rownames(as.data.frame(Sum_cols)), as.data.frame(Sum_cols))%>%
+  arrange(desc(Sum_cols))%>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F) %>%
+  scroll_box(width = "100%")
+```
+
+# Checking distributions and detecting outliers for all variables 
+``` {r, echo = FALSE, include = TRUE}
+#Cheching distribution of all 2500 households to identify outliers
+hist(as.double(unlist(Total_sales[2])), breaks = 20, main = "Total Sales across Households", xlab = "Total Sales")
+```
+
+# Checking quantiles to determine spending cut-off and removing customers with insufficient history information 
+  ``` {r, echo = FALSE, include = TRUE}
+  #Checking quantile values to decide on filter values
+  quantile(Total_sales$Total_sales, probs = c(0.1,0.5,0.9))
+
+  #Filtering out the dataset and leaving all households with insufficient history
+  Cust_profile_data_filtered <- Total_sales %>%
+    filter(Total_sales>390, Total_sales) %>%
+    inner_join(Cust_profile_data, by="household_key")
+  ```
+
+
+# Normalization of 'Total Sales' value across product categories to ensure equal weightage for all categories
+  ``` {r, echo = FALSE, include = TRUE}
+  #Getting data in required format to run k-means
+  df0 <- as.data.frame(scale(Cust_profile_data_filtered[3:21]))
+  df <- df0[c(8,	13,	12,	4,	15,	3,	9,	6,	2,	11,	7,	1,	14,	5,	19,	17,	18,	10,	16)]
+  set.seed(123)
+
+  head(df) %>%
+  kable() %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F) %>%
+    scroll_box(width = "100%")
+```
+
+
+# Decide cluster count such that the total intra-cluster variation is minimized; 15 taken as the optimal cluster count
+  ``` {r, echo = TRUE, include = TRUE}
+  # function to compute total within-cluster sum of square 
+  wss <- function(k) {
+    kmeans(df, k, nstart = 10 )$tot.withinss
+  }
+  # Compute and plot wss for k = 1 to k = 40
+  k.values <- 1:40
+
+  # extract wss for 1-40 clusters
+  wss_values <- suppressWarnings(map_dbl(k.values, wss))
+  par(mfrow=c(1,1))
+  suppressWarnings(plot(k.values, wss_values,
+       type = "b", pch = 19, frame = FALSE, 
+       xlab = "Number of clusters K",
+       ylab = "Total within-clusters sum of squares"))
+  ```
+
+# Run K-means segmentation on the standardized columns to create clusters
+  ``` {r, echo = TRUE, include = TRUE}
+  #running k-means for 15 cluster count
+  k2 <- suppressWarnings(kmeans(df, centers = 15, nstart = 25))
+  str(k2)
+  ```
+
+After getting cluster mappind for all 2250 households, data looks like this
+``` {r, echo = FALSE, include = TRUE}
+head(cbind(k2$cluster,Cust_profile_data_filtered[,c(15,10)]))
+```
+
+<br>
+* **Step 8** -Visualize the cluster in R to understand how the customers have been clustered
+
+
+
+``` {r, echo = FALSE, include = TRUE}
+#Plot 1
+df1 <- df[1:2]
+fviz_cluster(k2, data = df1, labelsize = 1, pointsize = 1)
+```
+``` {r, echo = FALSE, include = TRUE}
+# plot clusters
+df1 <- df[1:8]
+plot(df1, col = k2$cluster)
+```
+
+``` {r, echo = FALSE, include = TRUE}
+# plot clusters
+df1 <- df[1:3]
+plot(df1, col = k2$cluster)
+```
+
+<br>
+* **Step 9** - Profile and name the clusters based on the average spend across categories. Segments have been named as 'H-Floral-Cosmetics-Garden Supplies buyers' where H represents 'high' total spend and Product categories names suggests the kind of product a customer/household buys
+
+``` {r, echo = FALSE, include = TRUE}
+df_final0 <- as.data.frame((Cust_profile_data_filtered[3:21]))
+df_final <- df_final0[c(8,	13,	12,	4,	15,	3,	9,	6,	2,	11,	7,	1,	14,	5,	19,	17,	18,	10,	16)]
+names(df_final) <- gsub(" ", "_", names(df_final))
+names(df_final) <- gsub("-", "_", names(df_final))
+names(df_final) <- gsub("/", "_", names(df_final))
+names(df_final) <- gsub("&", "_", names(df_final))
+
+cbind(df_final, cluster = k2$cluster)%>%
+  group_by(cluster)%>%
+  summarize(number=n(), avg_GROCERY = mean(GROCERY),	avg_MISC_ITEMS = mean(MISC_ITEMS), avg_MEAT = mean(MEAT),	avg_DELI = mean(DELI),	avg_SERVICES = mean(SERVICES),	avg_COUPONS = mean(COUPONS),	avg_GROCERY_HEALTHY = mean(GROCERY_HEALTHY),	avg_FLORAL = mean(FLORAL), avg_COSMETICS = mean(COSMETICS), avg_LIQUIOR = mean(LIQUIOR),	avg_GARDEN_SUPPLIES = mean(GARDEN_SUPPLIES), avg_AUTOMOTIVE = mean(AUTOMOTIVE),	avg_PHARMACY = mean(PHARMACY), avg_EGGS___MILK_PRODUCTS = mean(EGGS___MILK_PRODUCTS), avg_VIDEO = mean(VIDEO), avg_STORE_SUPPLY_MISC = mean(STORE_SUPPLY_MISC),	avg_TOYS = mean(TOYS) ,	avg_INFANT_PRODUCTS = mean(INFANT_PRODUCTS) ,	avg_STATIONARY = mean(STATIONARY) ) %>%
+kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F) %>%
+  scroll_box(width = "100%")
+```             
+
+
+
+
+
+
+
+
+
 
 
 

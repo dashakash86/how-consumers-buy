@@ -35,21 +35,77 @@ for (i in seq_along(datasets))
 }
 ```
 
-# View the 'transaction' dataset
-``` {r, echo = FALSE, include = TRUE}
-transaction_data[1:3,] %>%
-kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
-  scroll_box(width = "100%")
-```
+# Viewing all datasets
 
-# View the 'demographics' dataset
-``` {r, echo = FALSE, include = TRUE}
-hh_demographic[1:3,] %>%
-kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
-  scroll_box(width = "100%")
-```
+      # View the 'transaction' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      transaction_data[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      # View the 'demographics' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      hh_demographic[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      # View the 'campaign_table' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      campaign_table[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      #View the 'campaign description' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      campaign_desc[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      # View the 'product table' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      product[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      # View the 'coupon' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      coupon[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      # View the 'coupon redemption' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      coupon_redempt[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+      # View the 'causal data' dataset
+      ``` {r, echo = FALSE, include = TRUE}
+      causal_data[1:3,] %>%
+      kable() %>%
+        kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+        scroll_box(width = "100%")
+      ```
+
+
+
+
+
+
 
 
 

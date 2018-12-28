@@ -1,1 +1,56 @@
 
+# Set the directory for the R Markdown session
+```{r setup, include=FALSE, cache = FALSE}
+require("knitr")
+opts_knit$set(root.dir = "C:/data")
+```
+
+# Install packages and suppress warnings
+``` {r, echo = TRUE, include = TRUE}
+suppressWarnings(suppressMessages(library(dplyr)))
+suppressWarnings(suppressMessages(library(magrittr))) 
+suppressWarnings(suppressMessages(library(tidyr))) 
+suppressWarnings(suppressMessages(library(ggplot2))) 
+suppressWarnings(suppressMessages(library(stats))) 
+suppressWarnings(suppressMessages(library(factoextra)))
+suppressWarnings(suppressMessages(library(knitr)))
+suppressWarnings(suppressMessages(library(kableExtra)))
+suppressWarnings(suppressMessages(library(purrr)))
+```
+
+# Code for Loading and Reading the datasets
+``` {r, echo = TRUE, include = TRUE}
+
+datasets <- c("campaign_desc","campaign_table","causal_data","coupon","coupon_redempt","hh_demographic","product","transaction_data","product_dpt_mapping")
+for (i in seq_along(datasets))
+{ 
+  
+  file_path = paste0(datasets[i],".csv")
+  if(file.exists(file_path))
+  {
+    df <- read.csv(file_path)
+    assign(datasets[i],df)
+  } else
+    print("No such file exits")
+}
+```
+
+# View the 'transaction' dataset
+``` {r, echo = FALSE, include = TRUE}
+transaction_data[1:3,] %>%
+kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+  scroll_box(width = "100%")
+```
+
+# View the 'demographics' dataset
+``` {r, echo = FALSE, include = TRUE}
+hh_demographic[1:3,] %>%
+kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+  scroll_box(width = "100%")
+```
+
+
+
+

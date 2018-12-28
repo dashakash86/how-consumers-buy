@@ -35,7 +35,7 @@ for (i in seq_along(datasets))
 }
 ```
 
-# Viewing all datasets
+# HTML viewing of all datasets
 
       # View the 'transaction' dataset
       ``` {r, echo = FALSE, include = TRUE}
@@ -102,6 +102,35 @@ for (i in seq_along(datasets))
       ```
 
 
+# Detecting missing values 
+``` {r, echo = TRUE, include = TRUE}
+for (i in seq_along(datasets))
+{ 
+missing_values <- any(is.na(get(datasets[i])))
+if (missing_values)
+{
+  print(paste(datasets[i], "has Missing values"))
+ } else
+  print(paste(datasets[i], "has no Missing values"))
+}
+```
+
+
+# Preparing dataset for Problem Statement - 1 (linear regression analysis) using DPLYR's commands
+``` {r, echo = TRUE, include = TRUE}
+#Dataset 1-Demographic factors driving customer spend
+Demographic_factors <- group_by(transaction_data, household_key) %>%
+ summarise(Total_Sales = sum(sales_value))%>%
+ inner_join(hh_demographic, by="household_key")
+```
+    # HTML viewing of final dataset and summary of response and predictor variables
+    ``` {r, echo = FALSE, include = TRUE}
+    Demographic_factors[1:5,] %>%
+    kable() %>%
+      kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)%>%
+      scroll_box(width = "100%")
+    summary(Demographic_factors)
+    ```
 
 
 

@@ -1,0 +1,802 @@
+household_key,age_desc,marital_status_code,income_desc,homeowner_desc,hh_comp_desc,household_size_desc,kid_category_desc
+1,65+,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+7,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+8,25-34,U,25-34K,Unknown,2 Adults Kids,3,1
+13,25-34,U,75-99K,Homeowner,2 Adults Kids,4,2
+16,45-54,B,50-74K,Homeowner,Single Female,1,None/Unknown
+17,65+,B,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+18,45-54,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+19,35-44,B,15-24K,Unknown,Single Female,1,None/Unknown
+20,25-34,A,75-99K,Renter,2 Adults No Kids,2,None/Unknown
+22,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+25,35-44,U,50-74K,Unknown,Unknown,1,None/Unknown
+27,45-54,U,25-34K,Probable Renter,Single Female,1,None/Unknown
+31,35-44,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+39,35-44,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+40,45-54,U,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+42,65+,U,50-74K,Unknown,Single Male,1,None/Unknown
+43,35-44,B,15-24K,Homeowner,2 Adults Kids,5+,3+
+46,45-54,A,150-174K,Homeowner,2 Adults Kids,5+,3+
+48,19-24,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+49,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+52,45-54,B,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+55,65+,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+56,55-64,A,100-124K,Homeowner,2 Adults Kids,4,2
+57,45-54,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+58,25-34,A,150-174K,Homeowner,2 Adults Kids,4,2
+67,45-54,A,Under 15K,Homeowner,2 Adults Kids,5+,3+
+71,35-44,A,25-34K,Homeowner,Single Female,2,None/Unknown
+74,65+,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+77,35-44,A,100-124K,Homeowner,2 Adults Kids,5+,3+
+78,55-64,U,25-34K,Unknown,Single Male,1,None/Unknown
+80,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+85,25-34,U,35-49K,Unknown,Single Male,1,None/Unknown
+86,65+,B,35-49K,Homeowner,Single Male,1,None/Unknown
+97,45-54,U,75-99K,Unknown,Single Female,1,None/Unknown
+98,35-44,U,35-49K,Unknown,1 Adult Kids,2,1
+101,45-54,A,Under 15K,Homeowner,2 Adults Kids,4,2
+104,35-44,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+105,25-34,B,Under 15K,Homeowner,1 Adult Kids,3,2
+109,25-34,A,15-24K,Homeowner,Single Female,2,None/Unknown
+110,25-34,U,35-49K,Homeowner,Single Female,1,None/Unknown
+113,35-44,A,125-149K,Homeowner,2 Adults Kids,4,2
+114,25-34,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+117,65+,B,35-49K,Probable Owner,2 Adults No Kids,2,None/Unknown
+118,45-54,B,35-49K,Homeowner,Single Female,1,None/Unknown
+119,45-54,U,125-149K,Unknown,Single Male,1,None/Unknown
+121,45-54,U,25-34K,Unknown,2 Adults Kids,3,1
+123,45-54,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+127,45-54,U,25-34K,Unknown,Single Female,1,None/Unknown
+131,45-54,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+133,45-54,A,Under 15K,Homeowner,Single Male,2,None/Unknown
+134,55-64,A,25-34K,Homeowner,Single Female,2,None/Unknown
+136,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+139,35-44,B,75-99K,Homeowner,Single Male,1,None/Unknown
+149,45-54,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+155,35-44,B,50-74K,Homeowner,2 Adults Kids,3,1
+157,19-24,U,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+158,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+159,45-54,U,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+161,19-24,A,75-99K,Unknown,2 Adults Kids,3,1
+164,45-54,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+165,55-64,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+166,25-34,A,50-74K,Homeowner,2 Adults Kids,3,1
+170,25-34,A,100-124K,Homeowner,2 Adults Kids,4,2
+178,25-34,A,25-34K,Homeowner,1 Adult Kids,5+,3+
+184,45-54,U,25-34K,Unknown,Single Male,1,None/Unknown
+192,45-54,A,35-49K,Homeowner,Single Male,2,None/Unknown
+193,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+198,35-44,A,Under 15K,Homeowner,2 Adults Kids,3,1
+201,45-54,A,15-24K,Homeowner,2 Adults Kids,5+,3+
+208,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+209,45-54,U,25-34K,Homeowner,2 Adults Kids,3,1
+211,65+,A,35-49K,Homeowner,Single Female,2,None/Unknown
+212,35-44,U,Under 15K,Unknown,Single Female,1,None/Unknown
+214,55-64,B,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+216,35-44,U,50-74K,Homeowner,Unknown,1,None/Unknown
+218,45-54,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+219,55-64,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+220,45-54,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+221,65+,U,15-24K,Unknown,Unknown,1,None/Unknown
+222,35-44,A,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+230,25-34,U,25-34K,Unknown,Single Female,1,None/Unknown
+232,35-44,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+235,35-44,A,250K+,Homeowner,2 Adults Kids,5+,3+
+239,45-54,U,50-74K,Renter,Unknown,1,None/Unknown
+242,45-54,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+243,65+,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+248,35-44,A,125-149K,Homeowner,2 Adults Kids,4,2
+249,35-44,A,Under 15K,Renter,Unknown,3,1
+250,45-54,A,75-99K,Homeowner,1 Adult Kids,4,2
+253,45-54,U,Under 15K,Unknown,Single Female,1,None/Unknown
+256,25-34,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+257,25-34,U,25-34K,Unknown,1 Adult Kids,3,2
+263,45-54,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+264,45-54,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+276,35-44,U,35-49K,Unknown,Single Male,1,None/Unknown
+281,35-44,B,50-74K,Homeowner,Single Female,1,None/Unknown
+282,45-54,U,35-49K,Unknown,Single Female,1,None/Unknown
+283,25-34,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+289,45-54,B,100-124K,Homeowner,Single Male,1,None/Unknown
+290,25-34,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+294,25-34,A,50-74K,Homeowner,2 Adults Kids,4,2
+300,55-64,A,Under 15K,Unknown,Single Female,2,None/Unknown
+301,35-44,A,35-49K,Homeowner,2 Adults Kids,4,2
+302,45-54,U,35-49K,Homeowner,2 Adults Kids,3,1
+304,25-34,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+306,19-24,U,35-49K,Homeowner,2 Adults Kids,4,2
+309,25-34,A,75-99K,Homeowner,Single Male,2,None/Unknown
+314,45-54,U,75-99K,Homeowner,2 Adults Kids,3,1
+317,45-54,A,75-99K,Homeowner,Single Male,2,None/Unknown
+319,45-54,U,35-49K,Homeowner,1 Adult Kids,4,3+
+321,45-54,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+324,45-54,U,50-74K,Unknown,Single Female,1,None/Unknown
+325,35-44,A,75-99K,Homeowner,2 Adults Kids,4,2
+329,25-34,U,75-99K,Unknown,Single Female,1,None/Unknown
+332,35-44,A,125-149K,Homeowner,2 Adults Kids,5+,3+
+334,45-54,A,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+346,65+,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+350,45-54,A,50-74K,Homeowner,1 Adult Kids,4,2
+351,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+353,45-54,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+354,25-34,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+358,35-44,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+361,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+362,65+,U,50-74K,Unknown,Single Male,1,None/Unknown
+367,55-64,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+370,65+,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+371,35-44,A,75-99K,Homeowner,2 Adults Kids,3,1
+377,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+378,55-64,A,50-74K,Homeowner,Single Female,2,None/Unknown
+381,25-34,B,35-49K,Homeowner,1 Adult Kids,2,1
+383,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+385,25-34,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+386,35-44,B,25-34K,Probable Owner,Single Female,1,None/Unknown
+387,25-34,B,50-74K,Homeowner,Single Female,1,None/Unknown
+389,35-44,U,150-174K,Probable Owner,Single Female,1,None/Unknown
+390,45-54,B,25-34K,Renter,Single Female,1,None/Unknown
+391,65+,B,25-34K,Unknown,Single Female,1,None/Unknown
+392,35-44,A,250K+,Homeowner,2 Adults Kids,3,1
+395,35-44,U,25-34K,Unknown,Single Male,1,None/Unknown
+400,35-44,A,150-174K,Homeowner,2 Adults Kids,3,1
+404,25-34,A,25-34K,Unknown,Unknown,2,None/Unknown
+409,19-24,B,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+410,55-64,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+411,35-44,U,Under 15K,Unknown,2 Adults No Kids,2,None/Unknown
+412,65+,A,15-24K,Homeowner,Single Female,2,None/Unknown
+413,45-54,U,100-124K,Unknown,Unknown,1,None/Unknown
+417,45-54,A,35-49K,Unknown,Single Female,2,None/Unknown
+418,35-44,U,35-49K,Unknown,2 Adults Kids,3,1
+426,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+428,19-24,U,50-74K,Probable Owner,2 Adults No Kids,2,None/Unknown
+432,19-24,U,25-34K,Unknown,Single Female,1,None/Unknown
+434,35-44,A,15-24K,Homeowner,2 Adults Kids,3,1
+437,25-34,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+438,35-44,A,50-74K,Probable Owner,2 Adults No Kids,2,None/Unknown
+441,45-54,B,50-74K,Homeowner,Single Female,1,None/Unknown
+442,25-34,U,15-24K,Unknown,1 Adult Kids,2,1
+443,45-54,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+451,25-34,B,Under 15K,Renter,2 Adults No Kids,2,None/Unknown
+454,55-64,U,35-49K,Unknown,Single Male,1,None/Unknown
+456,19-24,B,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+458,55-64,A,35-49K,Homeowner,Single Female,2,None/Unknown
+460,65+,B,25-34K,Homeowner,Single Female,1,None/Unknown
+462,65+,U,100-124K,Unknown,Single Male,1,None/Unknown
+464,65+,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+469,45-54,U,75-99K,Probable Owner,Single Female,1,None/Unknown
+473,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+483,45-54,U,35-49K,Unknown,Single Female,1,None/Unknown
+484,25-34,U,15-24K,Unknown,2 Adults No Kids,2,None/Unknown
+485,35-44,U,25-34K,Homeowner,Single Male,1,None/Unknown
+489,55-64,U,150-174K,Unknown,Single Female,1,None/Unknown
+490,35-44,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+491,45-54,A,75-99K,Unknown,Single Female,2,None/Unknown
+492,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+493,55-64,U,50-74K,Unknown,Unknown,1,None/Unknown
+510,35-44,A,250K+,Homeowner,2 Adults Kids,3,1
+513,45-54,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+518,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+523,65+,B,35-49K,Homeowner,Single Male,1,None/Unknown
+526,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+527,45-54,U,50-74K,Homeowner,Single Female,1,None/Unknown
+534,45-54,U,35-49K,Unknown,Single Male,1,None/Unknown
+540,25-34,B,50-74K,Homeowner,Single Female,1,None/Unknown
+542,25-34,U,35-49K,Unknown,Single Female,1,None/Unknown
+543,35-44,A,35-49K,Probable Owner,1 Adult Kids,3,1
+546,45-54,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+548,35-44,B,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+553,45-54,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+560,19-24,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+567,19-24,U,25-34K,Unknown,Single Male,1,None/Unknown
+569,35-44,A,250K+,Homeowner,2 Adults Kids,3,1
+574,35-44,A,75-99K,Homeowner,2 Adults Kids,3,1
+575,35-44,U,50-74K,Unknown,Single Female,1,None/Unknown
+576,55-64,A,35-49K,Homeowner,Single Male,2,None/Unknown
+578,25-34,U,50-74K,Unknown,Single Male,1,None/Unknown
+582,45-54,A,125-149K,Homeowner,Unknown,3,1
+583,35-44,B,15-24K,Unknown,Single Female,1,None/Unknown
+586,19-24,A,35-49K,Renter,2 Adults Kids,3,1
+588,35-44,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+593,35-44,U,35-49K,Unknown,Single Male,1,None/Unknown
+595,25-34,U,35-49K,Unknown,2 Adults Kids,3,1
+596,45-54,A,15-24K,Homeowner,1 Adult Kids,3,1
+597,19-24,U,Under 15K,Unknown,1 Adult Kids,2,1
+598,35-44,B,25-34K,Unknown,Single Female,1,None/Unknown
+601,35-44,A,100-124K,Homeowner,2 Adults Kids,4,2
+605,25-34,A,75-99K,Homeowner,2 Adults Kids,4,2
+606,45-54,U,35-49K,Probable Renter,Unknown,1,None/Unknown
+607,45-54,U,125-149K,Unknown,Unknown,1,None/Unknown
+608,25-34,B,25-34K,Renter,1 Adult Kids,5+,3+
+609,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+614,35-44,A,15-24K,Unknown,2 Adults Kids,4,2
+621,45-54,U,35-49K,Unknown,Single Male,1,None/Unknown
+622,35-44,U,15-24K,Unknown,Single Female,1,None/Unknown
+623,45-54,A,35-49K,Homeowner,2 Adults Kids,3,1
+624,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+630,35-44,A,35-49K,Homeowner,2 Adults Kids,3,1
+631,65+,A,100-124K,Homeowner,2 Adults Kids,3,1
+644,65+,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+647,35-44,A,50-74K,Renter,2 Adults Kids,4,2
+660,55-64,A,50-74K,Homeowner,Unknown,2,None/Unknown
+661,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+670,55-64,A,35-49K,Unknown,2 Adults Kids,3,1
+671,35-44,U,35-49K,Homeowner,Single Female,1,None/Unknown
+672,35-44,U,25-34K,Unknown,2 Adults No Kids,2,None/Unknown
+675,35-44,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+680,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+682,65+,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+685,35-44,A,Under 15K,Unknown,Single Female,2,None/Unknown
+688,35-44,A,125-149K,Homeowner,2 Adults Kids,3,1
+690,65+,B,15-24K,Homeowner,Single Female,1,None/Unknown
+692,65+,U,35-49K,Homeowner,Single Female,1,None/Unknown
+693,45-54,U,15-24K,Unknown,2 Adults No Kids,2,None/Unknown
+695,35-44,B,35-49K,Unknown,1 Adult Kids,3,2
+696,35-44,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+699,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+706,45-54,B,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+707,25-34,A,100-124K,Homeowner,2 Adults Kids,5+,3+
+708,35-44,A,100-124K,Homeowner,2 Adults Kids,4,2
+712,65+,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+714,55-64,U,15-24K,Unknown,2 Adults Kids,3,1
+715,55-64,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+716,45-54,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+718,45-54,A,25-34K,Homeowner,2 Adults Kids,5+,3+
+722,35-44,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+725,45-54,U,25-34K,Unknown,Single Female,1,None/Unknown
+731,45-54,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+732,55-64,A,75-99K,Homeowner,2 Adults Kids,4,2
+733,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+740,45-54,A,175-199K,Homeowner,Single Female,2,None/Unknown
+741,65+,U,50-74K,Homeowner,2 Adults Kids,3,1
+742,35-44,A,15-24K,Renter,1 Adult Kids,4,2
+748,45-54,B,Under 15K,Homeowner,2 Adults Kids,3,1
+752,35-44,A,75-99K,Renter,Single Female,2,None/Unknown
+753,45-54,A,75-99K,Homeowner,2 Adults Kids,4,2
+755,35-44,U,50-74K,Homeowner,Unknown,1,None/Unknown
+761,25-34,A,125-149K,Homeowner,1 Adult Kids,5+,3+
+762,35-44,A,125-149K,Renter,Single Female,2,None/Unknown
+764,35-44,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+766,45-54,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+768,35-44,A,50-74K,Renter,Single Female,2,None/Unknown
+770,25-34,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+771,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+779,65+,U,125-149K,Homeowner,2 Adults Kids,3,1
+784,45-54,A,100-124K,Homeowner,Single Female,2,None/Unknown
+785,65+,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+786,19-24,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+787,25-34,B,25-34K,Homeowner,Single Male,1,None/Unknown
+788,25-34,U,Under 15K,Unknown,1 Adult Kids,2,1
+790,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+797,25-34,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+800,25-34,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+802,65+,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+803,25-34,U,75-99K,Unknown,2 Adults No Kids,2,None/Unknown
+806,35-44,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+808,45-54,U,75-99K,Homeowner,2 Adults Kids,3,1
+816,25-34,U,50-74K,Unknown,Single Female,1,None/Unknown
+817,35-44,A,150-174K,Homeowner,2 Adults Kids,3,1
+823,35-44,A,50-74K,Homeowner,2 Adults Kids,3,1
+825,45-54,A,175-199K,Homeowner,2 Adults No Kids,2,None/Unknown
+831,45-54,B,50-74K,Homeowner,1 Adult Kids,3,2
+840,35-44,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+844,45-54,A,200-249K,Homeowner,2 Adults No Kids,2,None/Unknown
+845,19-24,B,50-74K,Homeowner,Single Female,1,None/Unknown
+852,25-34,U,35-49K,Unknown,2 Adults Kids,4,2
+853,25-34,B,175-199K,Unknown,Single Female,1,None/Unknown
+856,55-64,B,35-49K,Homeowner,Single Female,1,None/Unknown
+857,65+,A,35-49K,Homeowner,1 Adult Kids,3,1
+859,25-34,U,50-74K,Unknown,Single Female,1,None/Unknown
+863,45-54,U,15-24K,Unknown,Unknown,1,None/Unknown
+864,35-44,U,15-24K,Homeowner,Single Female,1,None/Unknown
+865,35-44,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+866,45-54,U,15-24K,Unknown,1 Adult Kids,2,1
+867,45-54,U,75-99K,Homeowner,Unknown,1,None/Unknown
+868,65+,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+871,35-44,A,200-249K,Homeowner,2 Adults Kids,3,1
+875,25-34,U,25-34K,Unknown,2 Adults Kids,3,1
+878,25-34,U,35-49K,Unknown,1 Adult Kids,3,2
+879,35-44,B,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+882,45-54,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+883,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+886,35-44,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+888,25-34,U,150-174K,Homeowner,2 Adults Kids,3,1
+889,25-34,A,50-74K,Homeowner,2 Adults Kids,4,2
+895,45-54,U,150-174K,Unknown,Single Male,1,None/Unknown
+898,55-64,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+900,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+903,35-44,U,35-49K,Unknown,Single Male,1,None/Unknown
+906,55-64,A,Under 15K,Homeowner,Single Female,2,None/Unknown
+908,45-54,A,100-124K,Probable Owner,2 Adults Kids,3,1
+911,25-34,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+914,45-54,B,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+915,45-54,U,15-24K,Unknown,Single Female,1,None/Unknown
+920,45-54,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+922,45-54,U,35-49K,Unknown,Unknown,1,None/Unknown
+926,35-44,U,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+929,45-54,B,25-34K,Renter,1 Adult Kids,2,1
+932,19-24,U,15-24K,Unknown,2 Adults No Kids,2,None/Unknown
+934,45-54,U,Under 15K,Unknown,Single Female,1,None/Unknown
+939,45-54,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+941,19-24,A,200-249K,Unknown,2 Adults No Kids,2,None/Unknown
+946,19-24,U,Under 15K,Unknown,Single Female,1,None/Unknown
+947,65+,B,35-49K,Homeowner,Single Male,1,None/Unknown
+949,25-34,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+955,19-24,U,Under 15K,Unknown,Single Female,1,None/Unknown
+956,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+960,35-44,A,125-149K,Homeowner,2 Adults Kids,5+,3+
+968,35-44,B,35-49K,Renter,1 Adult Kids,2,1
+971,25-34,A,35-49K,Homeowner,2 Adults Kids,3,1
+973,35-44,A,50-74K,Homeowner,2 Adults Kids,4,2
+976,25-34,A,200-249K,Homeowner,2 Adults Kids,5+,3+
+979,35-44,B,35-49K,Homeowner,1 Adult Kids,2,1
+981,45-54,A,25-34K,Homeowner,Single Female,2,None/Unknown
+982,45-54,U,35-49K,Unknown,2 Adults Kids,4,2
+983,45-54,A,35-49K,Homeowner,2 Adults Kids,3,1
+986,25-34,U,35-49K,Unknown,Single Male,1,None/Unknown
+992,45-54,A,35-49K,Homeowner,2 Adults Kids,3,1
+993,55-64,A,50-74K,Homeowner,1 Adult Kids,5+,3+
+996,55-64,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+997,45-54,U,75-99K,Homeowner,Single Male,1,None/Unknown
+1001,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1003,35-44,U,25-34K,Unknown,Single Female,1,None/Unknown
+1004,25-34,U,15-24K,Unknown,Single Male,1,None/Unknown
+1012,35-44,A,35-49K,Unknown,Unknown,5+,3+
+1014,45-54,A,15-24K,Unknown,2 Adults Kids,4,2
+1015,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1018,45-54,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+1020,45-54,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+1021,35-44,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+1024,25-34,A,Under 15K,Homeowner,2 Adults Kids,4,2
+1031,35-44,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1038,55-64,U,Under 15K,Probable Renter,Single Male,1,None/Unknown
+1040,25-34,B,100-124K,Unknown,Single Male,1,None/Unknown
+1041,25-34,U,35-49K,Unknown,Single Male,1,None/Unknown
+1042,25-34,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1045,25-34,A,Under 15K,Homeowner,Single Male,2,None/Unknown
+1053,55-64,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+1057,35-44,U,50-74K,Unknown,Single Male,1,None/Unknown
+1060,35-44,B,35-49K,Renter,2 Adults No Kids,2,None/Unknown
+1062,65+,U,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1066,35-44,U,25-34K,Unknown,2 Adults No Kids,2,None/Unknown
+1069,25-34,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+1070,35-44,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1074,45-54,A,35-49K,Homeowner,2 Adults Kids,4,2
+1076,25-34,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1081,55-64,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1082,45-54,U,35-49K,Unknown,Single Male,1,None/Unknown
+1084,25-34,U,35-49K,Unknown,2 Adults Kids,3,1
+1091,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1094,45-54,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+1103,35-44,A,50-74K,Homeowner,2 Adults Kids,3,1
+1113,45-54,A,50-74K,Homeowner,2 Adults Kids,3,1
+1120,35-44,B,Under 15K,Renter,2 Adults Kids,4,2
+1123,55-64,A,15-24K,Unknown,Single Female,2,None/Unknown
+1128,25-34,U,75-99K,Unknown,2 Adults Kids,3,1
+1130,55-64,U,25-34K,Renter,2 Adults Kids,3,1
+1131,45-54,B,50-74K,Homeowner,2 Adults Kids,3,1
+1135,45-54,U,50-74K,Unknown,Unknown,2,1
+1137,65+,B,35-49K,Homeowner,Single Male,1,None/Unknown
+1138,35-44,U,15-24K,Unknown,2 Adults No Kids,2,None/Unknown
+1142,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1146,35-44,B,35-49K,Homeowner,1 Adult Kids,4,3+
+1147,19-24,U,25-34K,Unknown,2 Adults No Kids,2,None/Unknown
+1151,45-54,U,Under 15K,Probable Renter,Single Male,1,None/Unknown
+1154,45-54,A,35-49K,Homeowner,Unknown,2,None/Unknown
+1158,45-54,U,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1159,45-54,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1160,65+,U,35-49K,Homeowner,Single Female,1,None/Unknown
+1163,35-44,U,Under 15K,Unknown,Unknown,1,None/Unknown
+1164,25-34,U,15-24K,Unknown,Single Male,1,None/Unknown
+1166,45-54,A,125-149K,Homeowner,2 Adults Kids,3,1
+1167,35-44,U,50-74K,Homeowner,2 Adults Kids,4,2
+1169,19-24,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1172,25-34,B,50-74K,Unknown,Single Male,1,None/Unknown
+1174,25-34,U,Under 15K,Unknown,2 Adults Kids,5+,3+
+1175,25-34,A,50-74K,Homeowner,Single Female,2,None/Unknown
+1178,45-54,U,15-24K,Unknown,Single Female,1,None/Unknown
+1179,35-44,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1186,45-54,A,50-74K,Homeowner,1 Adult Kids,5+,3+
+1188,45-54,U,35-49K,Renter,Unknown,1,None/Unknown
+1190,25-34,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1197,35-44,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1218,45-54,A,35-49K,Homeowner,2 Adults Kids,4,2
+1219,19-24,A,15-24K,Homeowner,2 Adults Kids,3,1
+1222,45-54,U,15-24K,Homeowner,Single Female,1,None/Unknown
+1226,25-34,B,35-49K,Homeowner,1 Adult Kids,3,2
+1228,45-54,U,100-124K,Unknown,Single Female,1,None/Unknown
+1229,55-64,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1234,45-54,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1236,35-44,U,50-74K,Unknown,2 Adults Kids,3,1
+1240,45-54,U,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+1247,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1248,45-54,U,50-74K,Unknown,1 Adult Kids,2,1
+1256,45-54,U,50-74K,Unknown,1 Adult Kids,2,1
+1257,45-54,U,50-74K,Homeowner,2 Adults Kids,3,1
+1258,45-54,U,75-99K,Homeowner,Unknown,1,None/Unknown
+1260,65+,U,50-74K,Homeowner,Single Male,1,None/Unknown
+1261,45-54,A,25-34K,Homeowner,Single Female,2,None/Unknown
+1263,25-34,B,15-24K,Unknown,Single Male,1,None/Unknown
+1264,45-54,U,15-24K,Unknown,Single Male,1,None/Unknown
+1267,25-34,U,75-99K,Unknown,Single Female,1,None/Unknown
+1268,35-44,U,Under 15K,Homeowner,2 Adults Kids,4,2
+1270,45-54,U,15-24K,Unknown,Single Female,1,None/Unknown
+1272,65+,A,35-49K,Homeowner,Single Female,2,None/Unknown
+1285,25-34,B,25-34K,Renter,1 Adult Kids,3,2
+1291,55-64,A,35-49K,Homeowner,Single Male,2,None/Unknown
+1296,65+,A,25-34K,Homeowner,Single Female,2,None/Unknown
+1297,35-44,U,75-99K,Homeowner,Unknown,1,None/Unknown
+1299,35-44,U,15-24K,Renter,2 Adults Kids,4,2
+1300,45-54,A,50-74K,Homeowner,2 Adults Kids,4,2
+1305,19-24,B,Under 15K,Renter,1 Adult Kids,2,1
+1306,45-54,U,Under 15K,Unknown,Unknown,1,None/Unknown
+1316,55-64,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+1318,65+,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1321,19-24,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+1326,45-54,U,Under 15K,Homeowner,Single Male,1,None/Unknown
+1333,45-54,U,125-149K,Homeowner,2 Adults Kids,4,2
+1337,45-54,U,50-74K,Homeowner,2 Adults Kids,4,2
+1352,35-44,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1354,65+,B,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1357,55-64,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+1363,25-34,U,15-24K,Unknown,1 Adult Kids,2,1
+1364,65+,B,100-124K,Homeowner,Single Female,1,None/Unknown
+1367,35-44,U,75-99K,Homeowner,2 Adults Kids,3,1
+1369,25-34,B,Under 15K,Probable Renter,Single Male,1,None/Unknown
+1370,65+,U,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+1376,55-64,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1378,25-34,U,100-124K,Unknown,Single Female,1,None/Unknown
+1382,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1388,35-44,A,100-124K,Unknown,2 Adults Kids,3,1
+1389,65+,A,100-124K,Homeowner,Single Female,2,None/Unknown
+1391,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1393,35-44,B,150-174K,Homeowner,Single Female,1,None/Unknown
+1394,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1396,65+,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+1397,45-54,B,35-49K,Renter,Single Female,1,None/Unknown
+1402,55-64,U,15-24K,Unknown,Single Male,1,None/Unknown
+1412,45-54,A,50-74K,Homeowner,2 Adults Kids,3,1
+1418,25-34,A,35-49K,Homeowner,2 Adults Kids,3,1
+1419,35-44,U,35-49K,Unknown,Single Female,1,None/Unknown
+1421,35-44,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1423,45-54,U,15-24K,Unknown,Single Male,1,None/Unknown
+1425,19-24,B,50-74K,Unknown,2 Adults Kids,3,1
+1428,55-64,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+1429,45-54,B,35-49K,Renter,Single Female,1,None/Unknown
+1430,35-44,A,35-49K,Homeowner,2 Adults Kids,3,1
+1437,25-34,A,15-24K,Homeowner,1 Adult Kids,3,1
+1438,45-54,U,Under 15K,Unknown,Single Female,1,None/Unknown
+1443,35-44,U,150-174K,Unknown,2 Adults No Kids,2,None/Unknown
+1445,35-44,A,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+1451,45-54,A,125-149K,Homeowner,1 Adult Kids,5+,3+
+1452,45-54,A,25-34K,Unknown,2 Adults Kids,3,1
+1453,45-54,A,125-149K,Homeowner,2 Adults Kids,3,1
+1454,65+,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1461,35-44,U,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+1462,25-34,A,50-74K,Renter,2 Adults No Kids,2,None/Unknown
+1467,35-44,A,50-74K,Probable Owner,2 Adults Kids,4,2
+1468,65+,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1470,45-54,U,35-49K,Unknown,Single Female,1,None/Unknown
+1474,35-44,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1475,25-34,B,50-74K,Homeowner,Single Male,1,None/Unknown
+1479,45-54,U,15-24K,Probable Renter,Unknown,1,None/Unknown
+1481,19-24,U,35-49K,Unknown,Single Male,1,None/Unknown
+1483,19-24,U,Under 15K,Unknown,Unknown,1,None/Unknown
+1484,19-24,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1485,35-44,U,50-74K,Homeowner,Single Male,1,None/Unknown
+1488,25-34,A,50-74K,Probable Owner,Single Female,2,None/Unknown
+1491,65+,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1492,65+,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1494,65+,B,25-34K,Unknown,Single Female,1,None/Unknown
+1499,55-64,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1505,45-54,U,25-34K,Unknown,Single Female,1,None/Unknown
+1509,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1517,45-54,A,50-74K,Homeowner,2 Adults Kids,4,2
+1524,45-54,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1527,25-34,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1528,35-44,B,125-149K,Unknown,Single Female,1,None/Unknown
+1529,45-54,U,50-74K,Unknown,Single Male,1,None/Unknown
+1534,25-34,A,75-99K,Renter,2 Adults Kids,3,1
+1536,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+1537,19-24,A,35-49K,Renter,2 Adults Kids,3,1
+1540,45-54,U,15-24K,Unknown,2 Adults Kids,4,2
+1541,35-44,U,50-74K,Unknown,Unknown,1,None/Unknown
+1545,45-54,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1549,45-54,U,15-24K,Homeowner,Unknown,1,None/Unknown
+1556,45-54,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1557,25-34,A,100-124K,Renter,1 Adult Kids,4,2
+1563,45-54,A,75-99K,Homeowner,Unknown,3,1
+1566,35-44,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1567,45-54,U,15-24K,Renter,Single Male,1,None/Unknown
+1568,55-64,B,35-49K,Homeowner,Single Female,1,None/Unknown
+1572,35-44,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1578,45-54,U,15-24K,Unknown,2 Adults No Kids,2,None/Unknown
+1580,19-24,B,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+1585,45-54,B,150-174K,Homeowner,Single Female,1,None/Unknown
+1588,35-44,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1591,25-34,U,25-34K,Unknown,Single Female,1,None/Unknown
+1595,45-54,U,50-74K,Homeowner,Single Male,1,None/Unknown
+1604,35-44,U,35-49K,Probable Owner,2 Adults No Kids,2,None/Unknown
+1609,45-54,A,125-149K,Homeowner,2 Adults Kids,5+,3+
+1618,35-44,A,75-99K,Homeowner,Single Female,2,None/Unknown
+1627,25-34,U,35-49K,Unknown,Single Male,1,None/Unknown
+1631,19-24,B,Under 15K,Renter,1 Adult Kids,4,3+
+1633,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1634,25-34,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+1648,35-44,U,15-24K,Probable Renter,Single Female,1,None/Unknown
+1649,35-44,B,150-174K,Homeowner,Single Male,1,None/Unknown
+1650,45-54,A,75-99K,Homeowner,2 Adults Kids,3,1
+1653,35-44,B,Under 15K,Homeowner,Single Female,1,None/Unknown
+1662,35-44,U,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1676,35-44,U,75-99K,Unknown,2 Adults No Kids,2,None/Unknown
+1677,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1678,45-54,U,75-99K,Unknown,Single Female,1,None/Unknown
+1680,25-34,A,15-24K,Homeowner,2 Adults Kids,3,1
+1686,45-54,U,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+1689,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+1692,35-44,U,50-74K,Unknown,Unknown,1,None/Unknown
+1693,25-34,A,35-49K,Homeowner,2 Adults Kids,3,1
+1694,35-44,U,15-24K,Probable Renter,Single Female,1,None/Unknown
+1695,35-44,U,25-34K,Homeowner,Single Male,1,None/Unknown
+1696,45-54,A,50-74K,Homeowner,2 Adults Kids,3,1
+1707,35-44,B,25-34K,Unknown,Single Female,1,None/Unknown
+1708,45-54,U,25-34K,Unknown,Single Female,1,None/Unknown
+1709,25-34,A,35-49K,Unknown,2 Adults Kids,3,1
+1710,35-44,A,150-174K,Homeowner,Single Male,2,None/Unknown
+1720,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+1722,45-54,U,15-24K,Unknown,2 Adults No Kids,2,None/Unknown
+1726,55-64,U,75-99K,Homeowner,Single Female,1,None/Unknown
+1740,19-24,U,250K+,Unknown,Single Female,1,None/Unknown
+1745,45-54,A,Under 15K,Unknown,Single Male,2,None/Unknown
+1748,45-54,U,35-49K,Unknown,Single Male,1,None/Unknown
+1749,55-64,B,35-49K,Homeowner,Single Male,1,None/Unknown
+1751,25-34,A,15-24K,Renter,2 Adults Kids,4,2
+1753,45-54,U,35-49K,Homeowner,Unknown,1,None/Unknown
+1759,35-44,U,35-49K,Unknown,2 Adults Kids,5+,3+
+1762,45-54,A,125-149K,Homeowner,2 Adults Kids,5+,3+
+1764,45-54,A,75-99K,Homeowner,2 Adults Kids,4,2
+1765,45-54,U,35-49K,Unknown,Single Male,1,None/Unknown
+1775,45-54,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+1778,25-34,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1779,65+,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1785,25-34,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+1788,35-44,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1791,45-54,B,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+1795,45-54,U,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+1796,19-24,U,35-49K,Unknown,Single Female,1,None/Unknown
+1797,65+,U,Under 15K,Homeowner,Single Female,1,None/Unknown
+1800,35-44,A,175-199K,Homeowner,2 Adults No Kids,2,None/Unknown
+1802,45-54,U,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1803,19-24,A,50-74K,Homeowner,2 Adults Kids,3,1
+1804,65+,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1812,45-54,U,50-74K,Unknown,Single Female,1,None/Unknown
+1814,65+,U,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1815,45-54,U,25-34K,Unknown,2 Adults No Kids,2,None/Unknown
+1816,19-24,B,Under 15K,Renter,2 Adults Kids,5+,3+
+1820,45-54,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1822,55-64,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+1823,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+1829,65+,A,75-99K,Homeowner,Single Female,2,None/Unknown
+1831,55-64,U,75-99K,Homeowner,Single Male,1,None/Unknown
+1833,25-34,U,25-34K,Homeowner,1 Adult Kids,5+,3+
+1834,45-54,U,125-149K,Homeowner,Unknown,5+,3+
+1841,45-54,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1844,45-54,A,250K+,Homeowner,2 Adults No Kids,2,None/Unknown
+1845,45-54,U,175-199K,Unknown,2 Adults Kids,3,1
+1847,45-54,U,175-199K,Unknown,Single Female,1,None/Unknown
+1848,45-54,A,75-99K,Homeowner,Unknown,3,1
+1850,65+,A,75-99K,Homeowner,Single Female,2,None/Unknown
+1858,25-34,B,150-174K,Homeowner,Single Female,1,None/Unknown
+1861,25-34,U,15-24K,Homeowner,2 Adults Kids,4,2
+1864,45-54,U,125-149K,Homeowner,1 Adult Kids,5+,3+
+1865,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1869,19-24,A,35-49K,Renter,2 Adults No Kids,2,None/Unknown
+1873,35-44,U,15-24K,Unknown,Single Male,1,None/Unknown
+1879,65+,A,35-49K,Unknown,Single Male,2,None/Unknown
+1892,35-44,A,35-49K,Homeowner,2 Adults Kids,3,1
+1894,35-44,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+1896,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1899,25-34,A,25-34K,Homeowner,2 Adults Kids,3,1
+1901,45-54,U,35-49K,Homeowner,2 Adults Kids,3,1
+1907,25-34,B,50-74K,Unknown,Single Male,1,None/Unknown
+1911,35-44,A,50-74K,Unknown,Single Male,2,None/Unknown
+1914,55-64,B,75-99K,Homeowner,Single Female,1,None/Unknown
+1917,65+,U,15-24K,Unknown,Single Female,1,None/Unknown
+1919,35-44,A,35-49K,Homeowner,1 Adult Kids,5+,3+
+1920,55-64,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1921,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1923,19-24,B,35-49K,Renter,Single Female,1,None/Unknown
+1926,25-34,U,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+1927,19-24,U,Under 15K,Unknown,Unknown,1,None/Unknown
+1928,35-44,B,75-99K,Homeowner,2 Adults Kids,3,1
+1929,35-44,B,25-34K,Homeowner,Single Male,1,None/Unknown
+1931,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1935,55-64,A,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+1937,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1939,35-44,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+1944,25-34,U,125-149K,Homeowner,2 Adults Kids,4,2
+1946,25-34,U,75-99K,Unknown,Single Male,1,None/Unknown
+1948,35-44,U,50-74K,Homeowner,Single Female,1,None/Unknown
+1949,45-54,U,Under 15K,Unknown,Single Female,1,None/Unknown
+1953,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+1955,25-34,U,35-49K,Unknown,Single Male,1,None/Unknown
+1962,65+,U,25-34K,Unknown,2 Adults No Kids,2,None/Unknown
+1964,65+,U,Under 15K,Renter,Single Male,1,None/Unknown
+1965,25-34,A,50-74K,Homeowner,2 Adults Kids,3,1
+1975,35-44,B,75-99K,Renter,Single Male,1,None/Unknown
+1976,25-34,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+1979,45-54,U,150-174K,Unknown,2 Adults Kids,3,1
+1980,55-64,A,50-74K,Homeowner,Single Female,2,None/Unknown
+1982,25-34,U,100-124K,Unknown,Single Male,1,None/Unknown
+1985,25-34,U,50-74K,Unknown,Unknown,5+,3+
+1989,65+,U,15-24K,Homeowner,Single Female,1,None/Unknown
+1990,35-44,A,125-149K,Homeowner,2 Adults Kids,5+,3+
+1995,25-34,B,25-34K,Unknown,1 Adult Kids,3,2
+1997,25-34,U,50-74K,Unknown,Single Male,1,None/Unknown
+2002,35-44,U,35-49K,Homeowner,Single Female,1,None/Unknown
+2004,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+2006,45-54,U,Under 15K,Unknown,Single Male,1,None/Unknown
+2007,45-54,A,50-74K,Homeowner,2 Adults Kids,3,1
+2011,45-54,U,75-99K,Homeowner,Single Male,1,None/Unknown
+2012,45-54,A,25-34K,Renter,Single Male,2,None/Unknown
+2013,19-24,U,25-34K,Unknown,Single Female,1,None/Unknown
+2017,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+2018,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+2020,35-44,A,100-124K,Unknown,2 Adults Kids,5+,3+
+2023,45-54,U,35-49K,Homeowner,2 Adults Kids,3,1
+2024,25-34,B,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2030,35-44,B,75-99K,Homeowner,Single Female,1,None/Unknown
+2040,25-34,U,25-34K,Homeowner,Single Male,1,None/Unknown
+2041,35-44,B,35-49K,Renter,2 Adults No Kids,2,None/Unknown
+2050,35-44,A,25-34K,Homeowner,2 Adults Kids,5+,3+
+2053,45-54,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+2057,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2058,25-34,B,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2062,25-34,U,25-34K,Unknown,2 Adults No Kids,2,None/Unknown
+2063,55-64,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+2064,19-24,U,50-74K,Unknown,Single Female,1,None/Unknown
+2068,55-64,A,50-74K,Homeowner,Single Female,2,None/Unknown
+2069,35-44,U,15-24K,Unknown,Single Female,1,None/Unknown
+2070,45-54,U,50-74K,Unknown,Unknown,1,None/Unknown
+2076,25-34,A,100-124K,Homeowner,2 Adults Kids,3,1
+2082,45-54,A,Under 15K,Homeowner,2 Adults Kids,3,1
+2084,55-64,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2085,35-44,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2086,45-54,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+2087,45-54,B,100-124K,Homeowner,Unknown,1,None/Unknown
+2088,25-34,U,35-49K,Unknown,Single Female,1,None/Unknown
+2092,35-44,A,Under 15K,Homeowner,1 Adult Kids,3,1
+2094,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2097,35-44,A,15-24K,Homeowner,2 Adults Kids,5+,3+
+2100,65+,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2102,55-64,A,175-199K,Homeowner,2 Adults No Kids,2,None/Unknown
+2107,35-44,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+2110,35-44,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2111,45-54,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+2112,45-54,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+2115,35-44,A,150-174K,Homeowner,2 Adults Kids,5+,3+
+2116,35-44,A,75-99K,Homeowner,2 Adults Kids,5+,3+
+2119,25-34,U,50-74K,Homeowner,Single Male,1,None/Unknown
+2121,55-64,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2123,45-54,U,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+2124,25-34,A,50-74K,Homeowner,2 Adults Kids,4,2
+2129,25-34,U,35-49K,Unknown,1 Adult Kids,2,1
+2130,25-34,B,50-74K,Homeowner,Single Female,1,None/Unknown
+2133,55-64,A,100-124K,Unknown,2 Adults No Kids,2,None/Unknown
+2134,35-44,U,35-49K,Unknown,Single Female,1,None/Unknown
+2140,65+,A,15-24K,Homeowner,2 Adults No Kids,2,None/Unknown
+2147,25-34,A,75-99K,Homeowner,2 Adults Kids,3,1
+2148,55-64,A,35-49K,Homeowner,2 Adults Kids,4,2
+2154,45-54,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2156,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2158,25-34,B,50-74K,Probable Renter,Single Female,1,None/Unknown
+2162,45-54,U,75-99K,Homeowner,Unknown,1,None/Unknown
+2168,35-44,U,50-74K,Unknown,Single Female,1,None/Unknown
+2172,25-34,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+2173,25-34,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+2179,45-54,A,35-49K,Homeowner,2 Adults Kids,3,1
+2181,55-64,A,100-124K,Homeowner,2 Adults Kids,3,1
+2182,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+2183,65+,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+2184,25-34,U,50-74K,Unknown,Single Female,1,None/Unknown
+2185,25-34,U,125-149K,Homeowner,2 Adults Kids,4,2
+2186,35-44,U,25-34K,Unknown,Single Female,1,None/Unknown
+2188,65+,B,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2190,35-44,A,50-74K,Homeowner,2 Adults Kids,4,2
+2193,25-34,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2194,55-64,B,25-34K,Homeowner,Single Male,1,None/Unknown
+2198,35-44,B,25-34K,Unknown,Single Female,1,None/Unknown
+2199,19-24,U,50-74K,Unknown,2 Adults Kids,3,1
+2200,45-54,U,Under 15K,Unknown,Single Male,1,None/Unknown
+2203,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2208,35-44,U,50-74K,Unknown,1 Adult Kids,3,2
+2209,25-34,A,35-49K,Renter,2 Adults Kids,5+,3+
+2217,35-44,B,15-24K,Unknown,Single Female,1,None/Unknown
+2221,65+,B,35-49K,Homeowner,Single Male,1,None/Unknown
+2224,19-24,B,250K+,Homeowner,Single Male,1,None/Unknown
+2231,35-44,A,200-249K,Homeowner,2 Adults No Kids,2,None/Unknown
+2233,25-34,B,150-174K,Homeowner,Single Male,1,None/Unknown
+2234,65+,A,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+2235,45-54,U,175-199K,Homeowner,2 Adults Kids,3,1
+2237,45-54,U,50-74K,Homeowner,Single Female,1,None/Unknown
+2243,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2250,35-44,U,75-99K,Unknown,Unknown,1,None/Unknown
+2252,45-54,A,50-74K,Homeowner,2 Adults Kids,4,2
+2254,19-24,U,35-49K,Unknown,Single Male,1,None/Unknown
+2260,45-54,U,25-34K,Homeowner,Single Female,1,None/Unknown
+2264,45-54,A,250K+,Homeowner,2 Adults No Kids,2,None/Unknown
+2266,25-34,B,35-49K,Homeowner,Single Male,1,None/Unknown
+2269,55-64,A,35-49K,Homeowner,2 Adults No Kids,2,None/Unknown
+2272,65+,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+2279,25-34,U,50-74K,Unknown,2 Adults No Kids,2,None/Unknown
+2280,35-44,U,15-24K,Homeowner,2 Adults Kids,3,1
+2282,55-64,B,175-199K,Homeowner,Single Female,1,None/Unknown
+2284,45-54,A,250K+,Homeowner,2 Adults No Kids,2,None/Unknown
+2292,45-54,A,35-49K,Renter,2 Adults Kids,5+,3+
+2294,45-54,B,25-34K,Renter,2 Adults Kids,4,2
+2295,35-44,B,35-49K,Renter,Single Male,1,None/Unknown
+2296,35-44,U,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2298,65+,A,50-74K,Probable Renter,Single Female,2,None/Unknown
+2300,45-54,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2302,35-44,A,35-49K,Homeowner,1 Adult Kids,3,1
+2305,45-54,B,50-74K,Homeowner,Single Female,1,None/Unknown
+2307,45-54,A,75-99K,Homeowner,2 Adults Kids,3,1
+2312,45-54,A,250K+,Homeowner,2 Adults No Kids,2,None/Unknown
+2314,45-54,A,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2317,35-44,A,50-74K,Homeowner,2 Adults Kids,5+,3+
+2318,19-24,U,Under 15K,Unknown,Single Female,1,None/Unknown
+2322,45-54,U,175-199K,Homeowner,Single Male,1,None/Unknown
+2324,35-44,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2328,45-54,U,250K+,Homeowner,2 Adults No Kids,2,None/Unknown
+2330,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+2331,35-44,A,35-49K,Homeowner,2 Adults Kids,5+,3+
+2334,35-44,U,50-74K,Homeowner,Unknown,1,None/Unknown
+2337,65+,U,Under 15K,Homeowner,1 Adult Kids,3,2
+2341,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+2342,55-64,U,100-124K,Homeowner,Unknown,1,None/Unknown
+2343,19-24,U,50-74K,Unknown,Single Male,1,None/Unknown
+2347,45-54,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+2351,45-54,A,75-99K,Homeowner,2 Adults No Kids,2,None/Unknown
+2359,45-54,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+2360,25-34,B,50-74K,Homeowner,Unknown,1,None/Unknown
+2361,25-34,U,35-49K,Unknown,2 Adults No Kids,2,None/Unknown
+2364,45-54,A,25-34K,Renter,2 Adults No Kids,2,None/Unknown
+2367,45-54,U,Under 15K,Unknown,2 Adults No Kids,2,None/Unknown
+2370,25-34,A,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+2374,45-54,U,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+2376,45-54,U,35-49K,Unknown,Single Female,1,None/Unknown
+2378,25-34,A,50-74K,Unknown,2 Adults Kids,5+,3+
+2380,45-54,U,50-74K,Homeowner,Unknown,1,None/Unknown
+2390,25-34,A,50-74K,Unknown,Single Female,2,None/Unknown
+2393,35-44,U,75-99K,Homeowner,Single Male,1,None/Unknown
+2397,65+,B,125-149K,Unknown,2 Adults No Kids,2,None/Unknown
+2400,35-44,A,25-34K,Homeowner,2 Adults Kids,3,1
+2405,25-34,U,15-24K,Unknown,Single Female,1,None/Unknown
+2406,25-34,A,125-149K,Homeowner,2 Adults Kids,3,1
+2407,45-54,A,100-124K,Homeowner,2 Adults No Kids,2,None/Unknown
+2411,65+,A,Under 15K,Homeowner,2 Adults No Kids,2,None/Unknown
+2420,45-54,U,15-24K,Unknown,2 Adults Kids,3,1
+2421,45-54,A,150-174K,Homeowner,2 Adults Kids,5+,3+
+2426,19-24,U,Under 15K,Probable Renter,Single Female,1,None/Unknown
+2427,35-44,A,50-74K,Homeowner,2 Adults Kids,3,1
+2432,19-24,U,35-49K,Unknown,Single Female,1,None/Unknown
+2435,45-54,U,50-74K,Homeowner,1 Adult Kids,5+,3+
+2437,35-44,A,125-149K,Homeowner,2 Adults Kids,5+,3+
+2445,45-54,U,35-49K,Unknown,Unknown,1,None/Unknown
+2446,35-44,U,125-149K,Homeowner,2 Adults No Kids,2,None/Unknown
+2447,35-44,A,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+2448,45-54,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2449,35-44,A,175-199K,Homeowner,2 Adults Kids,5+,3+
+2453,45-54,B,50-74K,Homeowner,Single Female,1,None/Unknown
+2455,45-54,B,25-34K,Homeowner,2 Adults No Kids,2,None/Unknown
+2465,65+,A,15-24K,Homeowner,Single Female,2,None/Unknown
+2467,35-44,A,75-99K,Homeowner,2 Adults Kids,3,1
+2479,25-34,U,150-174K,Homeowner,2 Adults No Kids,2,None/Unknown
+2483,45-54,B,75-99K,Homeowner,Single Male,1,None/Unknown
+2486,35-44,B,25-34K,Unknown,Single Male,1,None/Unknown
+2488,45-54,B,35-49K,Homeowner,Single Female,1,None/Unknown
+2489,35-44,A,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2494,35-44,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2496,45-54,A,75-99K,Homeowner,Unknown,3,1
+2497,45-54,U,35-49K,Unknown,Single Male,1,None/Unknown
+2498,25-34,U,50-74K,Homeowner,2 Adults No Kids,2,None/Unknown
+2499,25-34,U,Under 15K,Unknown,2 Adults Kids,3,1
